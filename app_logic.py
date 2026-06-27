@@ -6,7 +6,7 @@ def human_turn(sticks_left):
             if 1<= take <= min(3, sticks_left):
                 return take
             else:
-                pritn("Ошибка можно взять от 1 до 3 спичек")
+                print("Ошибка можно взять от 1 до 3 спичек")
         except ValueError:
             print("Ошибка, введите целое число")
 
