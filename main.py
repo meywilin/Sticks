@@ -1,3 +1,4 @@
+import time
 from utils import check_winner
 from app_logic import human_turn, computer_turn
 
@@ -26,3 +27,5 @@ def play_game(human_first, sticks):
 if __name__=="__main__":
     import random
     start_game()
+
+time.sleep(3)
